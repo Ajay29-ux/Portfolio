@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    transition: 0.3s ease-in-out;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e74c3c;
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#home {
+    background: url('black.jpeg') no-repeat center center/cover;
+}
+
+#home .content h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#home .content span {
+    color: #e74c3c;
+}
+/* Resume Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+/* About Us Section */
+#about {
+    background: #222;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.about-images {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-images img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-images img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+}
+/* Resume Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+/* Footer Styling */
+footer {
+    background: #111;
+    color: white;
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.footer-container div {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-about h3, 
+.footer-links h3, 
+.footer-social h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e74c3c;
+}
+
+.footer-about p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #e74c3c;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: #e74c3c;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    color: #888;
+}
